@@ -1,0 +1,16 @@
+#todo_headline{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 20px 0px 60px;
+}
+
+.todo_container{
+    height: 700px;
+}
+
+@media only screen and (min-width: 998px)  {
+    .todo_container{
+        display: flex;
+    }
+}

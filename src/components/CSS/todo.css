@@ -1,0 +1,83 @@
+*{
+    font-family: 'Poppins','Square Peg', cursive;
+}
+
+.todo_section{
+    height: 100%;
+    margin-top: 40px;
+    border: 1px solid rgb(129, 129, 129);
+    box-shadow: rgb(185, 185, 186) 0px 10px 40px -10px;
+}
+
+.todo_section_head{
+    margin: 0px;
+    padding: 7px;
+    font-size: 40px;
+    font-weight: 600;
+    color: whitesmoke;
+    background: rgb(38, 37, 37);
+}
+
+.create_todo{
+    padding: 10px;
+    background-color: rgb(93, 92, 92);
+}
+
+.todo_list_element{
+    border: none;
+    display: flex;
+    font-size: 30px;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgb(119, 118, 118);
+}
+
+.todo_list_name{
+    width: 52%;
+    height: 32px;
+    overflow:auto;
+    color: white;
+    font-size: 27px;
+    margin: 10px 20px;
+    letter-spacing: 2px;
+}
+
+.todo_element_btn{
+    margin: 7px;
+    height: 48px;
+    letter-spacing: 2px;
+    font-size: 25px !important;
+
+}
+
+#todo_add_btn{
+    width: 37%;
+    border: none;
+    outline: none;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.todo_input_element{
+    margin: 10px 0px;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+}
+
+.todo_list_input{
+    width: 60%;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 2px;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+::placeholder{
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+

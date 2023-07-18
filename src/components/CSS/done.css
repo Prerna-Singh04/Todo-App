@@ -1,0 +1,15 @@
+.todo_done{
+    height: 100%;
+    margin-top: 40px;
+    border: 1px solid rgb(129, 129, 129);
+    box-shadow: rgb(185, 185, 186) 0px 10px 40px -10px;
+}
+
+.todo_done_head{
+    margin: 0px;
+    padding: 7px;
+    font-size: 40px;
+    font-weight: 600;
+    color: whitesmoke;
+    background: rgb(38, 37, 37);
+}

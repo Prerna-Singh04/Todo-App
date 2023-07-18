@@ -1,0 +1,23 @@
+.todo_in_progress{
+    height: 100%;
+    margin-top: 40px;
+    border: 1px solid rgb(129, 129, 129);
+    box-shadow: rgb(185, 185, 186) 0px 10px 40px -10px;
+}
+
+.todo_in_progress_head{
+    margin: 0px;
+    padding: 7px;
+    font-size: 40px;
+    font-weight: 600;
+    color: whitesmoke;
+    background: rgb(38, 37, 37);
+}
+
+.todo_in_progress_list_element{
+    border: none;
+    display: flex;
+    font-size: 30px;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgb(119, 118, 118);
+}
